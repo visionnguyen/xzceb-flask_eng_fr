@@ -30,7 +30,7 @@ def english_to_french(english_text):
         Translate English to French function
     """
     if english_text == "":
-        return "Null input"
+        return ""
 
     translation = language_translator.translate(
         text=english_text,
@@ -43,7 +43,7 @@ def french_to_english(french_text):
         Translate French to English function
     """
     if french_text == "":
-        return "Null input"
+        return ""
 
     translation = language_translator.translate(
         text=french_text,
